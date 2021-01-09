@@ -8,30 +8,35 @@ public class CarAgent : Agent
 {
    
     private CarController carController;
-    private float maxTimeBetweenCheckPoints = 30f;
+    private float maxTimeBetweenCheckPoints = 100f;
     [SerializeField] private List<CheckPoint> checkPoints;
     [SerializeField] private List<TrackWall> walls;
-    private float timeLeft = 30f;
+    private float timeLeft = 50f;
+    //private float Reward = 0.0f;
     //private float previousDistance = 63f;
+    private int localCollisionCount = 0;
     private int localCountOfPassedCheckPoints = 0;
     //private float previousDistance = 15f;
 
     private void Update()
     {
+        //Debug.Log(Reward);
         timeLeft -= Time.deltaTime;
         if (timeLeft <= 0)
         {
-            AddReward(-(28.0f - carController.noOfCheckPointsPassed));
-            //Award += (-1f);
+            //AddReward(-(28.0f - carController.noOfCheckPointsPassed));
+            AddReward(-1f);
             timeLeft = maxTimeBetweenCheckPoints;
             EndEpisode();
         }
         //Debug.Log(Award);
         if (carController.noOfCheckPointsPassed > 0)
         {
+            //Debug.Log(carController.currentCheckPoint);
             checkPoints[carController.currentCheckPoint].gameObject.SetActive(false);
             localCountOfPassedCheckPoints += 1;
-            AddReward(1f * localCountOfPassedCheckPoints);
+            AddReward(0.0025f * (float)localCountOfPassedCheckPoints);
+            //Reward+= (0.25f * (float)localCountOfPassedCheckPoints);
             //AddReward(0.65f * Mathf.Pow((carController.noOfCheckPointsPassed+localCountOfPassedCheckPoints),1.5f)+ 0.1f * timeLeft/maxTimeBetweenCheckPoints);
             //Award += 0.65f * (float)(carController.noOfCheckPointsPassed + localCountOfPassedCheckPoints);
             timeLeft = maxTimeBetweenCheckPoints;
@@ -41,9 +46,14 @@ public class CarAgent : Agent
             //Debug.Log("Next Checkpoint"+(carController.currentCheckPoint+1));
         }
 
+        if(carController.currentCheckPoint >= 36)
+        {
+            AddReward(0.015f * localCountOfPassedCheckPoints);
+        }
         if(carController.currentCheckPoint == checkPoints.Count - 1)
         {
-            AddReward(30000f+Mathf.Max(timeLeft,0f) * 300);
+            AddReward(30f + timeLeft);
+            //Reward += (30000f + Mathf.Max(timeLeft, 0f) * 300);
             //Award += (3f + Mathf.Max(timeLeft, 0f) * 3);
             //Debug.Log("Goal Reached");
             EndEpisode();
@@ -51,15 +61,17 @@ public class CarAgent : Agent
 
         if (carController.noOfCollisions > 0)
         {
+            localCollisionCount++;
             //Debug.Log("Collision");
-            AddReward(-1f);
+            AddReward(-(5f + localCollisionCount));
+            //Reward += (-0.4f);
             //Award += (-0.1f);
             carController.noOfCollisions = 0;
         }
 
 
-        AddReward(-0.001f);
-        //Award += (-0.001f);
+        AddReward(-0.01f);
+        //Reward += (-0.0001f);
     }
 
     public override void Initialize()
@@ -123,10 +135,14 @@ public class CarAgent : Agent
         //    AddReward(-(2f+distanceToNextCheckPoint.magnitude * 10f));
         //}
         //Debug.Log(distanceToNearByWall.magnitude);
-        if(distanceToNextCheckPoint.magnitude < 3.3f)
-            AddReward(-(2f + distanceToNearByWall.magnitude));
+        if (distanceToNearByWall.magnitude < 3.3f)
+        {
+            AddReward(- (distanceToNearByWall.magnitude/100f));
+            //Reward+= (-(distanceToNearByWall.magnitude/100f));
+        }
+
         sensor.AddObservation(distanceToNextCheckPoint / 70f);
-        //sensor.AddObservation(distanceToNearByWall / 65f);
+        //sensor.AddObservation(distanceToNearByWall / 10f);
     }
 
     public override void OnActionReceived(float[] vectorAction)

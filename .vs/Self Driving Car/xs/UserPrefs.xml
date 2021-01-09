@@ -1,16 +1,16 @@
 ﻿<Properties StartupConfiguration="{A29D7CEB-F35F-078C-9DB7-0DAE6BF4F4F4}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CarAgent.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraFollow.cs">
     <Files>
-      <File FileName="Assets/Scripts/CarController.cs" Line="17" Column="53" />
-      <File FileName="Assets/Scripts/CheckPoint.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/CarAgent.cs" Line="100" Column="14" />
+      <File FileName="Assets/Scripts/CarController.cs" Line="43" Column="6" />
+      <File FileName="Assets/Scripts/CheckPoint.cs" />
+      <File FileName="Assets/Scripts/CarAgent.cs" Line="73" Column="24" />
       <File FileName="Assets/Scripts/TrackWall.cs" />
       <File FileName="Assets/Scripts/CameraFollow.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="073c4fba-b38b-4077-b34b-d91558ff711e" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="22967d78-1008-4419-af99-7053742ad9fd" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

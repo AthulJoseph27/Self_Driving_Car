@@ -41,10 +41,6 @@ public class CarController : MonoBehaviour
 
     public void Accelerate(float value)
     {
-        if (value >= 0.5f)
-            value = 1f;
-        else
-            value = 0f;
         frontRightWheelCollider.motorTorque = value * maxTorque;
         frontLeftWheelCollider.motorTorque = value * maxTorque;
     }

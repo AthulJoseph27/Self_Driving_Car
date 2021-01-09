@@ -11,6 +11,7 @@ public class CheckPoint : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        //Debug.Log(index);
         if ((!carController.checkPoints[index]) && carController.currentCheckPoint < index)
         {
             carController.checkPoints[index] = true;

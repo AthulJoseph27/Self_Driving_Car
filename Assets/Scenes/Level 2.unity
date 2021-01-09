@@ -628,7 +628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 11
+  index: 44
   carController: {fileID: 1756875243}
 --- !u!65 &20782378
 BoxCollider:
@@ -1534,7 +1534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 27
+  index: 28
   carController: {fileID: 1756875243}
 --- !u!65 &85161328
 BoxCollider:
@@ -1779,7 +1779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 20
+  index: 35
   carController: {fileID: 1756875243}
 --- !u!65 &102360078
 BoxCollider:
@@ -4999,7 +4999,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 14
+  index: 41
   carController: {fileID: 1756875243}
 --- !u!65 &323922890
 BoxCollider:
@@ -6139,7 +6139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 16
+  index: 39
   carController: {fileID: 1756875243}
 --- !u!65 &424058781
 BoxCollider:
@@ -6507,7 +6507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 15
+  index: 40
   carController: {fileID: 1756875243}
 --- !u!65 &466710833
 BoxCollider:
@@ -7075,7 +7075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 21
+  index: 34
   carController: {fileID: 1756875243}
 --- !u!65 &560902255
 BoxCollider:
@@ -7968,7 +7968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 1
+  index: 54
   carController: {fileID: 1756875243}
 --- !u!65 &645544690
 BoxCollider:
@@ -8213,7 +8213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 22
+  index: 33
   carController: {fileID: 1756875243}
 --- !u!65 &716464395
 BoxCollider:
@@ -9418,7 +9418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 6
+  index: 49
   carController: {fileID: 1756875243}
 --- !u!65 &808042856
 BoxCollider:
@@ -12792,7 +12792,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 13
+  index: 42
   carController: {fileID: 1756875243}
 --- !u!65 &1093276960
 BoxCollider:
@@ -13901,7 +13901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 3
+  index: 52
   carController: {fileID: 1756875243}
 --- !u!65 &1166405704
 BoxCollider:
@@ -14852,7 +14852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 18
+  index: 37
   carController: {fileID: 1756875243}
 --- !u!65 &1227319630
 BoxCollider:
@@ -15103,7 +15103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 23
+  index: 32
   carController: {fileID: 1756875243}
 --- !u!65 &1248012522
 BoxCollider:
@@ -15715,7 +15715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 25
+  index: 30
   carController: {fileID: 1756875243}
 --- !u!65 &1313236668
 BoxCollider:
@@ -16605,7 +16605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 7
+  index: 48
   carController: {fileID: 1756875243}
 --- !u!65 &1369367164
 BoxCollider:
@@ -16944,7 +16944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 5
+  index: 50
   carController: {fileID: 1756875243}
 --- !u!65 &1393157926
 BoxCollider:
@@ -17067,7 +17067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 10
+  index: 45
   carController: {fileID: 1756875243}
 --- !u!65 &1396090381
 BoxCollider:
@@ -17190,7 +17190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 12
+  index: 43
   carController: {fileID: 1756875243}
 --- !u!65 &1396641312
 BoxCollider:
@@ -17452,7 +17452,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1423358011}
   m_LocalRotation: {x: 0.0030743484, y: -0.7244577, z: 0.6893006, w: 0.004036476}
-  m_LocalPosition: {x: 102.26796, y: 20.17, z: -99.79395}
+  m_LocalPosition: {x: 102.26796, y: 20.17, z: -97.4}
   m_LocalScale: {x: 0.71411186, y: 1, z: 0.34195516}
   m_Children: []
   m_Father: {fileID: 583052741}
@@ -17470,7 +17470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 17
+  index: 38
   carController: {fileID: 1756875243}
 --- !u!65 &1423358014
 BoxCollider:
@@ -18576,7 +18576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 8
+  index: 47
   carController: {fileID: 1756875243}
 --- !u!65 &1469932446
 BoxCollider:
@@ -18760,7 +18760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 9
+  index: 46
   carController: {fileID: 1756875243}
 --- !u!65 &1497400262
 BoxCollider:
@@ -19437,7 +19437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 2
+  index: 53
   carController: {fileID: 1756875243}
 --- !u!65 &1573234097
 BoxCollider:
@@ -20415,7 +20415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 24
+  index: 31
   carController: {fileID: 1756875243}
 --- !u!65 &1637167134
 BoxCollider:
@@ -21430,6 +21430,7 @@ GameObject:
   - component: {fileID: 1756875240}
   - component: {fileID: 1756875239}
   - component: {fileID: 1756875247}
+  - component: {fileID: 1756875248}
   m_Layer: 8
   m_Name: Racing_Car_Blue
   m_TagString: Untagged
@@ -21472,7 +21473,7 @@ MonoBehaviour:
   m_Model: {fileID: 0}
   m_InferenceDevice: 0
   m_BehaviorType: 0
-  m_BehaviorName: My Behavior
+  m_BehaviorName: CarAgent
   TeamId: 0
   m_UseChildSensors: 1
 --- !u!114 &1756875241
@@ -21490,14 +21491,13 @@ MonoBehaviour:
   m_SensorName: RayPerceptionSensor
   m_DetectableTags:
   - Wall
-  - CheckPoint
   m_RaysPerDirection: 5
   m_MaxRayDegrees: 100
   m_SphereCastRadius: 0.5
   m_RayLength: 20
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 1536
+    m_Bits: 1024
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 1, g: 1, b: 1, a: 1}
@@ -21687,7 +21687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62ad5ba45e74f4d79bb5def87819470d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  checkPoints: 00000000000000000000000000000000000000000000000000000000
+  checkPoints: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   currentCheckPoint: -1
   noOfCollisions: 0
   noOfCheckPointsPassed: 0
@@ -21764,17 +21764,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SensorName: RayPerceptionSensor 2
   m_DetectableTags:
-  - Wall
   - CheckPoint
-  m_RaysPerDirection: 3
-  m_MaxRayDegrees: 50
+  m_RaysPerDirection: 2
+  m_MaxRayDegrees: 90
   m_SphereCastRadius: 0.5
-  m_RayLength: 25
+  m_RayLength: 10
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 1536
+    m_Bits: 512
   m_ObservationStacks: 1
   rayHitColor: {r: 0, g: 1, b: 0.19600487, a: 1}
+  rayMissColor: {r: 1, g: 1, b: 1, a: 1}
+  m_StartVerticalOffset: 0.5
+  m_EndVerticalOffset: 0.5
+--- !u!114 &1756875248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756875238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb6b867a41448888c1cd4f99643ad71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SensorName: RayPerceptionSensor3
+  m_DetectableTags:
+  - CheckPoint
+  m_RaysPerDirection: 1
+  m_MaxRayDegrees: 4
+  m_SphereCastRadius: 0.5
+  m_RayLength: 50
+  m_RayLayerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  m_ObservationStacks: 1
+  rayHitColor: {r: 0, g: 0.4624567, b: 1, a: 1}
   rayMissColor: {r: 1, g: 1, b: 1, a: 1}
   m_StartVerticalOffset: 0.5
   m_EndVerticalOffset: 0.5
@@ -22540,7 +22566,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825655659}
   m_LocalRotation: {x: 0.0030743484, y: -0.7244577, z: 0.6893006, w: 0.004036476}
-  m_LocalPosition: {x: 102.47787, y: 19.95, z: -80.62241}
+  m_LocalPosition: {x: 102.47787, y: 19.95, z: -82.3}
   m_LocalScale: {x: 0.5979193, y: 1, z: 0.34195516}
   m_Children: []
   m_Father: {fileID: 583052741}
@@ -22558,7 +22584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 19
+  index: 36
   carController: {fileID: 1756875243}
 --- !u!65 &1825655662
 BoxCollider:
@@ -23236,7 +23262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 26
+  index: 29
   carController: {fileID: 1756875243}
 --- !u!65 &1922925986
 BoxCollider:
@@ -23359,7 +23385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 4
+  index: 51
   carController: {fileID: 1756875243}
 --- !u!65 &1933357658
 BoxCollider:
@@ -23605,7 +23631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ae698146e32417a8b4b78d91bd0d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 0
+  index: 55
   carController: {fileID: 1756875243}
 --- !u!65 &1943004302
 BoxCollider:

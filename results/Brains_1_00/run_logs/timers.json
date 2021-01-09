@@ -1,0 +1,49 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1609864999",
+        "python_version": "3.7.7 (v3.7.7:d7c567b08f, Mar 10 2020, 02:56:16) \n[Clang 6.0 (clang-600.0.57)]",
+        "command_line_arguments": "/Users/athuljoseph/UnityProjects/ENV/bin/mlagents-learn /Users/athuljoseph/UnityProjects/Self Driving Car/CarAgentConfig.yaml --run-id=Brains_1_00 --resume",
+        "mlagents_version": "0.20.0",
+        "mlagents_envs_version": "0.20.0",
+        "communication_protocol_version": "1.1.0",
+        "tensorflow_version": "2.3.1",
+        "numpy_version": "1.18.5",
+        "end_time_seconds": "1609865008"
+    },
+    "total": 8.712378364,
+    "count": 1,
+    "self": 0.02519639700000198,
+    "children": {
+        "run_training.setup": {
+            "total": 0.034188382999999156,
+            "count": 1,
+            "self": 0.034188382999999156
+        },
+        "TrainerController.start_learning": {
+            "total": 8.652993583999999,
+            "count": 1,
+            "self": 0.001622636999998761,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 8.523651056,
+                    "count": 1,
+                    "self": 8.523651056
+                },
+                "TrainerController._save_models": {
+                    "total": 0.12771989099999992,
+                    "count": 1,
+                    "self": 3.8468999999707876e-05,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.1276814220000002,
+                            "count": 1,
+                            "self": 0.1276814220000002
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

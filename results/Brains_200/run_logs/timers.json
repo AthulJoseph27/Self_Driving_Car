@@ -1,0 +1,78 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1609879106",
+        "python_version": "3.7.7 (v3.7.7:d7c567b08f, Mar 10 2020, 02:56:16) \n[Clang 6.0 (clang-600.0.57)]",
+        "command_line_arguments": "/Users/athuljoseph/UnityProjects/ENV/bin/mlagents-learn /Users/athuljoseph/UnityProjects/Self Driving Car/CarAgentConfig.yaml --run-id=Brains_200 --resume",
+        "mlagents_version": "0.20.0",
+        "mlagents_envs_version": "0.20.0",
+        "communication_protocol_version": "1.1.0",
+        "tensorflow_version": "2.3.1",
+        "numpy_version": "1.18.5",
+        "end_time_seconds": "1609879114"
+    },
+    "total": 8.407125452999999,
+    "count": 1,
+    "self": 0.02118862099999852,
+    "children": {
+        "run_training.setup": {
+            "total": 0.026778750000000073,
+            "count": 1,
+            "self": 0.026778750000000073
+        },
+        "TrainerController.start_learning": {
+            "total": 8.359158082,
+            "count": 1,
+            "self": 0.004403822000000446,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 7.9519142590000005,
+                    "count": 1,
+                    "self": 7.9519142590000005
+                },
+                "trainer_threads": {
+                    "total": 3.903999999899099e-05,
+                    "count": 1,
+                    "self": 3.903999999899099e-05,
+                    "children": {
+                        "thread_root": {
+                            "total": 0.0,
+                            "count": 0,
+                            "is_parallel": true,
+                            "self": 0.0,
+                            "children": {
+                                "trainer_advance": {
+                                    "total": 0.00020653099999989877,
+                                    "count": 1,
+                                    "is_parallel": true,
+                                    "self": 3.907800000035877e-05,
+                                    "children": {
+                                        "process_trajectory": {
+                                            "total": 0.00016745299999954,
+                                            "count": 1,
+                                            "is_parallel": true,
+                                            "self": 0.00016745299999954
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "TrainerController._save_models": {
+                    "total": 0.4028009610000005,
+                    "count": 1,
+                    "self": 0.0008256030000008963,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.4019753579999996,
+                            "count": 1,
+                            "self": 0.4019753579999996
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

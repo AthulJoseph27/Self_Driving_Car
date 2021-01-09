@@ -1,0 +1,35 @@
+{
+    "My Behavior": {
+        "checkpoints": [
+            {
+                "steps": 499997,
+                "file_path": "results/Brains_200/My Behavior/My Behavior-499997.nn",
+                "reward": 47.374385709931325,
+                "creation_time": 1609878868.128603
+            },
+            {
+                "steps": 500061,
+                "file_path": "results/Brains_200/My Behavior/My Behavior-500061.nn",
+                "reward": 47.374385709931325,
+                "creation_time": 1609878868.5567172
+            },
+            {
+                "steps": 500061,
+                "file_path": "results/Brains_200/My Behavior/My Behavior-500061.nn",
+                "reward": null,
+                "creation_time": 1609879114.558775
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500061,
+            "file_path": "results/Brains_200/My Behavior.nn",
+            "reward": null,
+            "creation_time": 1609879114.558775
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.1.0",
+        "mlagents_version": "0.20.0",
+        "tensorflow_version": "2.3.1"
+    }
+}

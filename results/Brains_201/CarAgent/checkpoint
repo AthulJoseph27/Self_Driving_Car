@@ -1,2 +1,3 @@
-model_checkpoint_path: "CarAgent-6999934.ckpt"
+model_checkpoint_path: "CarAgent-7239539.ckpt"
 all_model_checkpoint_paths: "CarAgent-6999934.ckpt"
+all_model_checkpoint_paths: "CarAgent-7239539.ckpt"
